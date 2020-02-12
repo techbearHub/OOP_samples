@@ -74,8 +74,7 @@ inline void Vehicle::Print() const {
 void main(void) {
 
    Vehicle CP1;
-   CP2(1,2), CP3 = Vehicle(3, 4); 
-     *CP4 = new Vehicle(5, 6), *CP5; 
+   CP2(1,2), CP3 = Vehicle(3, 4), *CP4 = new Vehicle(5, 6), *CP5; 
    CP5 = new Vehicle(7, 8);
 
    clrscr(); // vienkarsi notira konsuli
